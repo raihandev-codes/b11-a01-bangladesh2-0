@@ -183,3 +183,28 @@ nav li a {
 }
 
 /* ---- The vision future style ends ---- */
+
+/* Recent News style */
+.recent-section{
+    margin: 0 35px 0 35px;
+    gap: 30px;
+    padding: 60px 100px 60px 100px;
+    border-radius: 15px;
+}
+.news-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+.news-container img {
+    border-radius: 24px;
+}
+
+
+.news-content{
+    text-align: left;
+    width: 740px;
+    height: 290px;
+
+}
