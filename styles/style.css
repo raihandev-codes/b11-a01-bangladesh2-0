@@ -115,7 +115,7 @@ nav li a {
 
 /* The vision future style */
 .vision-section {
-    margin: 0 30px 0 30px;   
+    margin: 0 30px 0 30px;
     gap: 32px;
     padding: 60px 80px 60px 80px;
 }
@@ -163,4 +163,23 @@ nav li a {
 #card-btn-khaki {
     background: #FFC239;
 }
+
+.chief-advisor {
+    margin-top: 30px;
+    padding: 40px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: 25px 30px;
+}
+
+.professor {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    margin: 4px 0px;
+}
+
 /* ---- The vision future style ends ---- */
