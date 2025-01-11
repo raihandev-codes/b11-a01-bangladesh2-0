@@ -185,26 +185,86 @@ nav li a {
 /* ---- The vision future style ends ---- */
 
 /* Recent News style */
-.recent-section{
+.recent-section {
     margin: 0 35px 0 35px;
     gap: 30px;
     padding: 60px 100px 60px 100px;
     border-radius: 15px;
 }
-.news-container{
+
+.news-container {
     display: flex;
     justify-content: center;
     gap: 30px;
     margin-bottom: 70px;
 }
+
 .news-container img {
     border-radius: 24px;
 }
 
 
-.news-content{
+.news-content {
     text-align: left;
     width: 740px;
     height: 290px;
 
 }
+
+/* Recent News style ends*/
+
+/* donate style */
+.donate-section {
+    margin: 0 35px 0 35px;
+    gap: 30px;
+    padding: 60px 100px 60px 100px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.donate-title {
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donate-cards {
+    justify-content: center;
+    align-items: center;
+}
+
+.amount {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+    margin-right: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 48px;
+    cursor: pointer;
+}
+
+.amount:hover {
+    background-color: #C6E4D6;
+    transition-duration: 1s;
+}
+
+.other-amnt {
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+
+}
+#donate-btn{
+    display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+/* ---- donate style ends --- */
