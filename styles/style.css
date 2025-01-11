@@ -4,35 +4,91 @@ body {
     font-family: "Fira Sans", serif;
 }
 
-/* All Shared style here */
+main {
+    margin: 130px auto;
+}
 
+/* All Shared style here */
+.btn-primary {
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    background: #006A50;
+    padding: 16px 26px;
+    cursor: pointer;
+
+}
+.btn-primary a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 /*------ Shared style ends -------- */
 
 
 /* nav bar style start here */
 nav {
     align-items: center;
-    margin: 0 50px;
+    margin: 0 auto;
 }
+
 nav ul {
     display: flex;
     justify-content: space-between;
 }
+
 nav li {
     list-style: none;
+    margin-right: 35px;
 }
+
 .nav-title {
     font-weight: 800;
     font-size: 24px;
     color: #0e0e0e;
 }
+
 .btn-nav {
     border: 1px solid rgb(0, 106, 80);
     border-radius: 8px;
-    color: rgb(0, 106, 80);
     font-size: 18px;
     font-weight: 600;
     padding: 15px 30px;
     cursor: pointer;
 }
+nav li a {
+    text-decoration: none;
+    color: rgb(0, 106, 80);
+}
+
 /* ------ nav bar style  ------ */
+
+/* Banner section style here */
+.banner {
+    margin: 0 35px 0 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    height: 400px;
+    background-color: #C6E4D6;
+    padding: 60px 100px 60px 100px;
+    border-radius: 15px;
+}
+.banner-content {
+    max-width: 0 auto;
+    margin-bottom:6px;
+    width: auto 622px;
+    height: auto 326px;
+}
+.banner-title {
+    color: rgba(14, 14, 14, 0.5);
+    font-size: 24px;
+    font-weight: 500;
+}
+.banner-heading {
+    color: rgb(14, 14, 14);
+    font-size: 46px;
+    font-weight: 700;
+}
+/* ------- Banner section ends -------- */
