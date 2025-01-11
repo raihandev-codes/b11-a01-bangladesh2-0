@@ -37,6 +37,7 @@ main {
     font-weight: 700;
 }
 
+
 /*------ Shared style ends -------- */
 
 
@@ -112,30 +113,54 @@ nav li a {
 
 /* ------- Banner section ends -------- */
 
-/* pilar of bd */
-.pilar-section {
-    margin: 0 35px 0 35px;
-    width: auto 1280px;
-    height: 48px;
-    padding: 60px 100px 60px 100px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-
+/* The vision future style */
+.vision-section {
+    margin: 0 30px 0 30px;   
+    gap: 32px;
+    padding: 60px 80px 60px 80px;
 }
 
-.pilar-container {
+.card-container {
+    margin-top: 30px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    gap: 30px;
 }
 
-.pilar {
-    width: 302px;
-    height: 244px;
-    border: 1px solid rgba(14, 14, 14, 0.15);
+#card-blue {
+    background-color: #5490F533;
+}
+
+#card-green {
+    background-color: #C6E4D6;
+}
+
+#card-khaki {
+    background-color: #F7EBCF;
+}
+
+.card {
+    width: 100%;
+    height: 325px;
+    padding: 32px;
     border-radius: 16px;
-    background: rgb(255, 255, 255);
-    margin-right: 20px;
-    padding: 24px;
+
 }
+
+.card-title {
+    color: #0E0E0ECC;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#card-btn-blue {
+    background: #5490F5;
+}
+
+#card-btn-green {
+    background: #09A15C;
+}
+
+#card-btn-khaki {
+    background: #FFC239;
+}
+/* ---- The vision future style ends ---- */
