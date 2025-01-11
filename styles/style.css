@@ -19,10 +19,24 @@ main {
     cursor: pointer;
 
 }
-.btn-primary a{
+
+.btn-primary a {
     text-decoration: none;
     color: #FFFFFF;
 }
+
+.txt-color {
+    color: #0E0E0EB3;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-title {
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+}
+
 /*------ Shared style ends -------- */
 
 
@@ -56,6 +70,7 @@ nav li {
     padding: 15px 30px;
     cursor: pointer;
 }
+
 nav li a {
     text-decoration: none;
     color: rgb(0, 106, 80);
@@ -75,20 +90,52 @@ nav li a {
     padding: 60px 100px 60px 100px;
     border-radius: 15px;
 }
+
 .banner-content {
     max-width: 0 auto;
-    margin-bottom:6px;
+    margin-bottom: 6px;
     width: auto 622px;
     height: auto 326px;
 }
+
 .banner-title {
     color: rgba(14, 14, 14, 0.5);
     font-size: 24px;
     font-weight: 500;
 }
+
 .banner-heading {
     color: rgb(14, 14, 14);
     font-size: 46px;
     font-weight: 700;
 }
+
 /* ------- Banner section ends -------- */
+
+/* pilar of bd */
+.pilar-section {
+    margin: 0 35px 0 35px;
+    width: auto 1280px;
+    height: 48px;
+    padding: 60px 100px 60px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+
+.pilar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pilar {
+    width: 302px;
+    height: 244px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    margin-right: 20px;
+    padding: 24px;
+}
